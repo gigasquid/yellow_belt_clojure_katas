@@ -6,8 +6,8 @@
 
 (deftest test-fizzbuzz
   (facts "about fizzbuzz"
-        (fizzbuzz 3) => "fizz"
-        (fizzbuzz 5) => "buzz"
-        (fizzbuzz 15) => "fizzbuzz"
-        (fizzbuzz 7) => 7
-        (fizzbuzz 7) =not=> "fizz"))
+        (answer 3) => "fizz"
+        (answer 5) => "buzz"
+        (answer 15) => "fizzbuzz"
+        (answer 7) => 7
+        (answer 7) =not=> "fizz"))
