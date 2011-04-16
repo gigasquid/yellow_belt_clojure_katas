@@ -5,7 +5,7 @@
 ;; A woman is addressed as Ms.
 ;; A man is addressed as Mr.
 ;; A knight is addressed as Sir
-;; The return string should be "Hello (the title) (last name)
+;; The return string should be "Welcome (the title) (last name)
 
 (defn welcome [last-name is-woman? is-sir?])
 
