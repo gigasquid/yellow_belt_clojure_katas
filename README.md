@@ -1,6 +1,6 @@
 # Yellow Belt Clojure Katas
 
-This is template for beginner level Clojure Katas done with tests
+This is a template for beginner level Clojure Katas done with tests
 in [midje](https://github.com/marick/Midje).
 The katas are taken more or less from the 
 [Coding Kata site](http://codingkata.org/katas/).
