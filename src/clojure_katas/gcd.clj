@@ -1,5 +1,5 @@
-(ns clojure-katas.gcd
-   (:require [clojure.contrib.math :as math]))
+(ns clojure-katas.gc
+  (:require [clojure.math.numeric-tower :as math]))
 
 ;; Greatest Common divisor
 ;; gcd(a,0) = a
