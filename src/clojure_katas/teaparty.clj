@@ -1,4 +1,5 @@
-(ns clojure-katas.teaparty)
+(ns clojure-katas.teaparty
+  (:use [midje.sweet]))
 
 ;; welcome should return the greeting with the proper title depending
 ;; on whether it is a man, woman, or knight
@@ -9,3 +10,6 @@
 
 (defn welcome [last-name is-woman? is-sir?])
 
+(future-fact (welcome "Austen" true false) => "Welcome Ms. Austen")
+(future-fact (welcome "Orwell" false false) => "Welcome Mr. Orwell")
+(future-fact (welcome "Newton" false true) => "Welcome Sir Newton")
