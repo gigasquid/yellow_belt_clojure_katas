@@ -1,8 +1,7 @@
 (ns clojure-katas.reverseword
   (:use [midje.sweet]))
 
-;; Reverse a given input word
-
 (defn reverse-word [word])
 
-(future-fact (reverse-word "looc") => "cool")
+(future-fact "Reverse a given input word"
+ (reverse-word "looc") => "cool")
