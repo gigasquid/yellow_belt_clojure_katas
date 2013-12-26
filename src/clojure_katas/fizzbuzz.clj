@@ -1,9 +1,14 @@
-(ns clojure-katas.fizzbuzz)
+(ns clojure-katas.fizzbuzz
+  (:use [midje.sweet]))
 
-;; answer should return "fizz" for n divisible by 3,
-;; "buzz" for n divisible by 5
-;; and "fizzbuzz" for n divisible by 5 and 3
-;; otherwise just the number
+(defn fizzbuzz [n])
 
-(defn answer [n])
+(future-facts "Fizzbuzz returns \"fizz\" when the number is divisible
+by 3, and \"buzz\" when the number is divisible by 5.  If divisible by
+3 AND 5, return \"fizzbuzz\".  Otherwise, return the number."
 
+              (fizzbuzz 3) => "fizz"
+              (fizzbuzz 5) => "buzz"
+              (fizzbuzz 15) => "fizzbuzz"
+              (fizzbuzz 7) => 7
+              (fizzbuzz 7) =not=> "fizz")
