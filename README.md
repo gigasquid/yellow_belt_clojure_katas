@@ -14,13 +14,14 @@ Kata](http://codekata.pragprog.com/2007/01/code_kata_backg.html).
 
 * Download and install
   [leiningen](https://github.com/technomancy/leiningen).
-* Clone project.
-* run "lein midje".  You should see all the tests run with "WORK TO DO"
+* Clone the project and change to the project directory.
+* Run <code>lein midje</code>.  You should see all the tests run with "WORK TO
+  DO".
 * Choose a kata.  The shell source code with instructions is in the
-  src/clojure_katas directory.  The tests are in the same files.
-* In the test find the change the word future-facts to facts or
-  future-fact to fact
-* Run lein test again.  You should have failing tests now
+  <code>src/clojure_katas</code> directory.  The tests are in the same files.
+* To enable tests for a kata replace <code>future-facts</code> with
+  <code>facts</code> or <code>future-fact</code> with <code>fact</code>.
+* Run <code>lein midje</code> again.  You should have failing tests now.
 * Fix the the code and run the tests!
 
 If you have any problem setting up the project, please let me know.
