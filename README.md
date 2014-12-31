@@ -3,17 +3,17 @@
 This is a template for beginner level Clojure Katas done with tests in
 [midje](https://github.com/marick/Midje).  The katas were taken more
 or less from the (now vanished) Coding Kata site
-(http://codingkata.org/katas/).
+([http://codingkata.org/katas/](https://web.archive.org/web/20110112101501/http://codingkata.org/katas/)).
 
 Once you've mastered these simple kata, check out the [Pragmatic
 Programmers
-Kata](http://codekata.pragprog.com/2007/01/code_kata_backg.html).
+Kata](http://codekata.com).
 
 
 ## Setup instructions
 
 * Download and install
-  [leiningen](https://github.com/technomancy/leiningen).
+  [leiningen](http://leiningen.org/).
 * Clone the project and change to the project directory.
 * Run <code>lein midje</code>.  You should see all the tests run with "WORK TO
   DO".
